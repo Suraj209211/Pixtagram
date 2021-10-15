@@ -1,0 +1,107 @@
+
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+   padding-left: 10px;
+   padding-right: 5px;
+   padding-top: 30px;
+
+  }
+  h1 {
+    font-family: "courgette", cursive;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 80px;
+    opacity: 60%;
+
+  }
+  p{
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: center;
+    font-size: 30px;
+    opacity: 60%;
+  }
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding-left: 17.5px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .imagesonframe{
+    padding-top: 5%;
+  }
+  .image {
+    /* Full height-width*/
+    width: 100%;
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    mask-repeat: repeat;
+    background-size: cover;
+    padding-top: 5%;
+  }
+.image3{
+  padding-bottom: 5%;
+}
+.container2{
+  padding-top: 5%;
+  padding-bottom: 10%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.container3{
+  padding-top: 5%;
+  padding-bottom: 10%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.float2 {
+  float: left;
+}
+.float3{
+  float: right;
+}
+.imgfloatingtext {
+  background: -webkit-linear-gradient( blue, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: unset;
+  font-family: "courgette", cursive; 
+  opacity: 70%;
+}
+
+
+
+
+
+  
+
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 960px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }

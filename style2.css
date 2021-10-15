@@ -1,0 +1,211 @@
+                                    @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+                                    .image {
+                                        margin: auto;
+                                        position: relative;
+                                        padding-left: 30%;
+                                        padding-top: 15%;
+                                        padding-bottom: 15%;
+                                    }
+                                    
+                                    .text1 {
+                                        text-align: center;
+                                        font-family: Arial, Helvetica, sans-serif;
+                                        opacity: 70%;
+                                        padding-top: 2%;
+                                        padding-bottom: 2%;
+                                        padding-right: 2%;
+                                        padding-left: 2%;
+                                    }
+                                    
+                                    h1 {
+                                        padding-top: 50%;
+                                    }
+                                    
+                                    .text2 {
+                                        padding-top: 2%;
+                                        padding-bottom: 2%;
+                                        padding-right: 2%;
+                                        padding-left: 2%;
+                                        text-align: center;
+                                        font-family: Arial, Helvetica, sans-serif;
+                                    }
+                                    
+                                    .images {
+                                        padding-left: 15px;
+                                        padding-right: 15px;
+                                    }
+                                    
+                                    p {
+                                        padding: 7% 7% 7%;
+                                        font-size: 40px;
+                                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                        opacity: 60%;
+                                    }
+                                    
+                                    span {
+                                        font-weight: bold;
+                                        font-family: Arial, Helvetica, sans-serif
+                                    }
+                                    
+                                    .rawimages1 {
+                                        padding-left: 15%;
+                                        padding-bottom: 10%;
+                                        -ms-transform: rotate(-20deg);
+                                        /* IE 9 */
+                                        transform: rotate(-20deg);
+                                        left: 0px;
+                                        padding: 10px;
+                                    }
+                                    
+                                    .rawimages2 {
+                                        padding-left: 15%;
+                                        padding-bottom: 10%;
+                                        -ms-transform: rotate(20deg);
+                                        /*IE-10*/
+                                        transform: rotate(20deg);
+                                        position: absolute;
+                                        right: 0px;
+                                        padding: 10px;
+                                    }
+                                    
+                                    .rawimages3 {
+                                        display: block;
+                                        margin-left: auto;
+                                        margin-right: auto;
+                                        width: 40%;
+                                        padding-left: 15%;
+                                        padding-bottom: 10%;
+                                        position: absolute;
+                                        padding: 10px;
+                                        -ms-transform: rotate(20deg);
+                                        /*IE-10*/
+                                        transform: rotate(20deg);
+                                    }
+                                    
+                                    .rawimages4 {
+                                        display: block;
+                                        margin-left: auto;
+                                        margin-right: auto;
+                                        width: 40%;
+                                        padding-left: 15%;
+                                        padding-bottom: 10%;
+                                        -ms-transform: rotate(-20deg);
+                                        /*IE-10*/
+                                        transform: rotate(-20deg);
+                                        position: absolute;
+                                        right: 0px;
+                                        padding: 10px;
+                                    }
+                                    
+                                    .img-comp-container {
+                                        position: relative;
+                                        height: 200px; /*should be the same height as the images*/
+                                      }
+                                      
+                                      .img-comp-img {
+                                        position: absolute;
+                                        width: auto;
+                                        height: auto;
+                                        overflow:hidden;
+                                      }
+                                      
+                                      .img-comp-img img {
+                                        display:block;
+                                        vertical-align:middle;
+                                      }
+                                      
+                                      .img-comp-slider {
+                                        position: absolute;
+                                        z-index:9;
+                                        cursor: ew-resize;
+                                        /*set the appearance of the slider:*/
+                                        width: 40px;
+                                        height: 40px;
+                                        background-color: #2196F3;
+                                        opacity: 0.7;
+                                        border-radius: 50%;
+                                      }
+
+
+
+
+
+                                    
+                                    .textcolor {
+                                        padding-bottom: 50px;
+                                        display: flex;
+                                        padding-top: 10px;
+                                    }
+                                    
+                                    .gradienttext {
+                                        background: -webkit-linear-gradient(pink, blue, white);
+                                        -webkit-background-clip: text;
+                                        -webkit-text-fill-color: transparent;
+                                        font-family: Arial, Helvetica, sans-serif
+                                    }
+                                    
+                                    .float {
+                                        float: left;
+                                        
+                                    }
+                                    
+                                    .float2 {
+                                        float: right
+                                    }
+                                    
+                                    .float3 {
+                                        float: left;
+                                    }
+                                    
+                                    .imgfloatingtext {
+                                        background: -webkit-linear-gradient( blue, white);
+                                        -webkit-background-clip: text;
+                                        -webkit-text-fill-color: unset;
+                                        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                        opacity: 70%;
+                                    }
+                                    
+                                    .lr {
+                                        padding-left: 7%;
+                                        padding-top: 5%;
+                                    }
+                                    
+                                    .container {
+                                        padding-left: 2%;
+                                        padding-top: 10%;
+                                        padding-bottom: 10%;
+                                    }
+                                    
+                    
+
+                                    .container2{
+                                        padding-left: 2%;
+                                        padding-top: 10%;
+                                        padding-bottom: 10%;
+                                    }
+
+                                    .container3{
+                                        padding-left: 10.76px;
+                                    }
+                                    .containertext{
+                                        padding-left: 30.5%;
+                                        padding-bottom: 10%;
+                                        padding-top: 10%;
+                                        font-family: Courgette, cursive;
+                                      
+                                      
+                                    }
+                                    
+                                    /* id selector */
+
+                                    #bordershadow{
+                                        box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                        text-align: center;
+                                        
+                                    }
+                                    
+                                    @media only screen and (max-width: 700px) {
+                                        .modal-content {
+                                            width: 100%;
+                                        }
+                                    }
